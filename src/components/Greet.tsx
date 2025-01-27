@@ -5,12 +5,12 @@ const Greet = () => {
   return (
     <View style={styles.card}>
         <Image
-            source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
+            source={require('../assets/jeid.jpg')}
             style={styles.image}
           />
         <Text style={styles.title}>I'am Bro Jeid</Text>
         <Text style={styles.content}>I'm a software engineer and a freelance web developer. I'm passionate about learning new things and I'm always looking for new opportunities to grow my skills.</Text>
-        <Button title="Contact Me" onPress={() => alert('Contact me')} />
+        <Button title="Contact Me" onPress={() => alert('Contact me on +250784422138')} />
       </View>
     )
   }
@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
     },
     image: {
       width: '100%',
-      height: 150,
-      borderRadius: 10,
+      height: 500,
+      borderRadius: 200,
       marginBottom: 10,
     },
     title: {
