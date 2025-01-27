@@ -1,10 +1,11 @@
- import { View, Text } from 'react-native'
+ import { View, Text, Button,Image } from 'react-native'
  import React from 'react'
+import Greet from '../components/Greet'
  
  const index = () => {
    return (
-     <View>
-       <Text>My name Is Bro</Text>
+     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',backgroundColor: '#f5f5f5'}}>
+       <Greet/>
      </View>
    )
  }
